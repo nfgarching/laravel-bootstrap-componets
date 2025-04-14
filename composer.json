@@ -19,7 +19,6 @@
     ],
     "require": {
         "php": "^8.2",
-        "kyslik/column-sortable": "^6.0|^7.0",
         "laravel/framework": "^12.0",
         "livewire/livewire": "^3.6"
 
