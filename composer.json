@@ -1,0 +1,41 @@
+{
+    "name": "nfgarching/laravel-bootstrap-components",
+    "description": "Bootstrap 5.3 Components for Laravel",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "bootstrap",
+        "components",
+        "layout"
+    ],
+    "homepage": "https://github.com/nfgarching",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Fröhler",
+            "email": "norbert.froehler@gmail.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "kyslik/column-sortable": "^6.6",
+        "laravel/framework": "^12.0",
+        "livewire/livewire": "^3.6"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Nfgarching\\Componets\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nfgarching\\Componets\\LibraryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
