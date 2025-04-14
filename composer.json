@@ -35,7 +35,5 @@
                 "Nfgarching\\Componets\\LibraryServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
