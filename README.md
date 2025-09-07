@@ -67,6 +67,7 @@ Clone the package as follow:
 mkdir -p packages/nfgarching
 cd packages/nfgarching
 git clone git@github.com:nfgarching/laravel-bootstrap-componets.git
+composer require livewire/livewire
 ```
 
 Open composer.json an add in section

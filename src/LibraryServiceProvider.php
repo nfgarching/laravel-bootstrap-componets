@@ -22,7 +22,7 @@ class LibraryServiceProvider extends ServiceProvider
 
         $this->bootComponents();
 
-        Livewire::component('counter', \Nfgarching\Componets\Livewire\Counter::class);
+        // Livewire::component('counter', \Nfgarching\Componets\Livewire\Counter::class);
 
         $this->loadRoutesFrom(__DIR__ . '/Web.php');
 
